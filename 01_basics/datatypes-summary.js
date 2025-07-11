@@ -48,3 +48,30 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
        */
+
+
+
+
+
+       //*************************************************
+
+       //Memory have two types
+       //stack (used in primitive) and (and changes made in duplicate value)
+       // heap(non-primitive) (referece and changes made in original value )
+
+let myyoutubename = "raunakgoyal"
+
+let anothername = myyoutubename
+anothername="raunak"
+console.log(anothername);
+console.log(myyoutubename); //raunakgoyal (duplicate value changes and actual value stays the same)
+let user1={
+       email:"user@google.com" , upi:"user@ybl"
+}
+
+let usertwo = user1 
+ usertwo.email ="raunak@google.com"
+         
+console.log(user1.email);
+console.log(usertwo.email); //value same 
+
